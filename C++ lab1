@@ -1,0 +1,63 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    string name;
+    string id;
+    cout<<"What is your name: ";
+    cin>>name;
+    cout<<"Hello" <<name<< endl;
+     cout<<"What is your stuID: ";
+     cin>>id;
+    cout<<"your id is" <<id<< endl;
+   
+   
+   
+   int var1;
+   int var2;
+   cout<<"enter first number";
+   cin>>var1;
+   cout<<"enter second number";
+   cin>>var2;
+   
+   
+   
+  int sum= var1+var2;
+  int diff= var1- var2;
+  int prod=var1*var2;
+  cout<< "sum:" << sum << endl; 
+    cout<< "diff:" << diff << endl; 
+    cout<< "prod:" <<prod << endl; 
+   
+   
+    
+    
+    string studentName;
+    int lab;
+    int midterm;
+    int final;
+    cout<<"enter your name : ";
+    cin>>studentName;
+        cout<<"enter your lab grade: ";
+    cin>>lab;
+        cout<<"enter your midterm grade: ";
+    cin>>midterm;
+        cout<<"enter your final grade: ";
+    cin>>final;
+    double totalGrade= (lab*0.25+midterm*0.35+final*0.4);
+   cout<< "studentName:" << studentName << endl; 
+    cout<< "lab:" << lab << endl; 
+    cout<< "midterm:" <<midterm << endl; 
+    cout<< "final:" << final << endl; 
+    cout<< "total grade:" << totalGrade << endl;
+    
+    
+    
+  
+    
+    cout<< "*\n**\n***\n**\n*\n" << endl;
+    return 0;
+     
+       
+}
