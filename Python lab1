@@ -1,0 +1,32 @@
+#1
+input1=input("what is your name")
+print("hello" + input1)
+input2= input("whats your student id ")
+print ("your id is" + input2)
+
+
+#2
+var1=input()
+var2=input()
+sum=int(var1)+int(var2)
+diff=int(var1)-int(var2)
+prod=int (var1)*int(var2)
+print (sum,",",diff,",",prod)
+
+
+#3
+print ("enter your name")
+name=input()
+print ("enter grades 1-lab 2-midterm 3-final")
+lab=input()
+midterm=input()
+final=input()
+print ("Name:", name)
+print ("Lab:", lab)
+print ("Midterm:", midterm)
+print ("Final:", final)
+print ("Total Score:", int(lab)*0.25 + int(midterm)*0.35 + int (final)*0.4)
+
+
+#4
+print (" * \n ** \n *** \n ** \n*")
